@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="midnightsky-ui.css">
+</head>
+<body>
+    <!-- Navigation -->
+
+    <nav class="navigation-container">
+        <div class="nav-brand btn "> <h2>The Midnight Sky UI</h2></div>
+        <ul class="nav-list-container">
+            <li class="nav-list-item">
+                <button class="btn primary-btn"><a href="index.html">Home</a></button>
+            </li>
+            <li class="nav-list-item">
+                <button class="btn primary-btn"><a href="#">Github</a></button>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <!-- hero -->
+    <div class="container container-center">
+        <img class="hero" src="/images/starrynight.jpg">
+    </div>
+    <!-- hero text -->
+    <div class="container container-center hero-text">
+            <h1 class="midnight">The Midnight <span class="sky">Sky UI</span></h1>
+    </div>
+    <!-- Intro -->
+    <div id="intro" class="container container-center alternate">
+        <h1 class="heading">Introduction </h1>
+        <p>Midnight Sky UI is a collection of CSS styles and UI components to make websites look seamlessly beautiful. Inspired by the Starry night painting by Vincent Van gogh. </p>
+    </div>
+    <!-- Quick Start -->
+    <div  id="quick-start" class="container container-center">
+        <h1 class="heading">Quick Start</h1>
+        <p>To quickly add Midnight Sky UI to your project: <br>
+            Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all other stylesheets</p>
+            <div class="code">
+                <p>&lt;link rel="stylesheet" href="https://the-midnight-sky-ui.netlify.app/midnightsky-ui.css"&gt;</p>
+            </div>   
+    </div>
+    <!-- Starter template -->
+    <div id="starter-template" class="container container-center alternate">
+        <h1 class="heading">Starter template </h1>
+        <p>Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this: </p>
+        <div class="code">
+            <p>&lt;!doctype html&gt; <br>
+                &lt;html lang="en"&gt; <br>
+                  &lt;head&gt; <br>
+                    &lt;!-- Required meta tags --&gt;<br>
+                    &lt;meta charset="utf-8"&gt;<br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br> <br>
+                
+                    &lt;!-- Midnight Sky CSS --&gt; <br>
+                    &lt;link href="https://the-midnight-sky-ui.netlify.app/midnightsky-ui.css" rel="stylesheet"&gt; <br><br>
+                
+                    &lt;title&gt;Hello, world!&lt;/title&gt;<br>
+                  &lt;/head&gt;<br>
+                  &lt;body&gt;<br>
+                    &lt;h1&gt;Hello, world!&lt;/h1&gt;<br>
+                  &lt;/body&gt;<br>
+                &lt;/html&gt;<br></p>
+        </div> 
+    </div>
+
+<!-- Avatar -->
+    <div id="avatar" class="container container-center">
+        <h1 class="heading">Avatar</h1>
+        <p>Set a matching height and width that looks good, and use the border-radius property to add rounded corners to an image. <br>Border-radius 50% will make the image circular:</p>
+        
+        <div class="avatar-container">
+           <div><img class="avatar" src="/images/van-gogh.jpg" /></div>           
+        </div>
+
+        <div class="code">
+            <p> &lt;div&gt;&lt;img class="avatar" src="/images/van-gogh.jpg" /&gt;&lt;/div&gt; </p>
+        </div>
+
+    </div>
+
+<!-- Alert -->
+    <div  id="alert" class="container container-center alternate">
+        <h1 class="heading">Alerts</h1>
+        <p>Alerts are available for any length of text. For proper styling, use any of the below contextual classes (e.g., .primary-alert).</p>
+        <div class="alert-container">
+            <div class="alert primary-alert">
+                <p> A simple primary alert—check it out!</p>
+            </div>
+            
+            <div class="alert secondary-alert">
+                <p> A simple secondary alert—check it out!</p>
+            </div>
+            <div class="alert dark-alert">
+                <p> A simple dark alert—check it out!</p>
+            </div>
+            <div class="alert danger-alert">
+                <p> A simple danger alert—check it out!</p>
+            </div>
+        </div>
+
+        <div class="code">
+            <p>&lt;div class="alert primary-alert"&gt;<br>
+                &lt;p&gt; A simple primary alert—check it out!&lt;/p&gt;<br>
+            &lt;/div&gt;<br><br>
+            &lt;div class="alert secondary-alert"&gt;<br>
+                &lt;p&gt; A simple secondary alert—check it out!&lt;/p&gt;<br>
+            &lt;/div&gt;<br><br>
+            &lt;div class="alert dark-alert"&gt;<br>
+                &lt;p&gt; A simple dark alert—check it out!&lt;/p&gt;<br>
+            &lt;/div&gt;<br><br>
+            &lt;div class="alert danger-alert"&gt;<br>
+                &lt;p&gt; A simple danger alert—check it out!&lt;/p&gt;<br>
+            &lt;/div&gt;<br></p>
+        </div>
+    </div>
+
+    <!-- Badges -->
+    <div  id="badges" class="container container-center">
+        <h1 class="heading">Badges</h1>
+        <p>Badges scale to match the size of the immediate parent element by using relative font sizing. They can be used as part of links or buttons to provide a counter as well. </p>
+        <div class="badge-container">
+            <div>
+                <h1> Sample Text. This is a badge. <span class="badge">New</span>  </h1>
+            </div>
+            <div>
+                <h2> Sample Text. This is a badge. <span class="badge">New</span>  </h2>
+            </div>
+        </div>
+
+        <div class="code">
+           <p> &lt;h1&gt; Sample Text. This is a badge. &lt;span class="badge"&gt;New&lt;/span&gt;  &lt;/h1&gt;</p>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+
+    <div  id="buttons" class="container container-center alternate">
+        <h1 class="heading">Buttons</h1>
+        
+        <div class="button-container">
+           <button class="btn primary-btn">Primary</button>
+           <button class="btn secondary-btn">Secondary</button>
+           <button class="btn link-btn">Link</button>
+           <button class="btn floating-btn">top</button>
+            
+        </div>
+
+        <div class="code">
+           <p> &lt;button class="btn primary-btn"&gt;Primary&lt;/button&gt; </p>
+        </div>
+    </div>
+
+    
+    
+
+    <!-- Images -->
+    <div  id="images" class="container container-center">
+        <h1 class="heading">Images</h1>
+        
+        <div class="image-container">
+          <div class="res-image"> <img class="image" src="/images/starrynight.jpg"> </div>
+           <div><img class="round-image" src="/images/van-gogh.jpg"></div>
+            
+        </div>
+
+        <div class="code">
+           <p> &lt;div class="image-container"&gt; <br>
+            &lt;div class="res-image"&gt; &lt;img class="image" src="/images/starrynight.jpg"&gt; &lt;/div&gt; <br>
+             &lt;div&gt;&lt;img class="round-image" src="/images/van-gogh.jpg"&gt;&lt;/div&gt;<br>
+              
+          &lt;/div&gt;</p>
+        </div>
+    </div>
+
+    <!-- Lists -->
+
+    <div  id="lists" class="container container-center">
+        <h1 class="heading">Lists</h1>
+        
+        <div class="list-container">
+            <div class="list-item">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, non? Cum tempora suscipit nobis debitis.</p>
+            </div>
+            <div class="list-item">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, non? Cum tempora suscipit nobis debitis.</p>
+            </div>
+            <div class="list-item">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, non? Cum tempora suscipit nobis debitis.</p>
+            </div>
+            <div class="list-item">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, non? Cum tempora suscipit nobis debitis.</p>
+            </div>
+            
+        </div>
+
+        <div class="code">
+           <p> &lt;div class="list-container"&gt;<br>
+            &lt;div class="list-item"&gt;<br>
+                &lt;p&gt;Lorem, ipsum do adipisicing elit. Hic, non? Cum tempora suscipit nobis debitis.&lt;/p&gt; <br>
+            &lt;/div&gt;  <br>
+        &lt;/div&gt;
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Cards -->
+
+    <!-- Input -->
+
+    <!-- Navigation -->
+
+    <!-- Modal -->
+
+    <!-- Rating -->
+
+    <!-- Text Utilities -->
+
+</body>
+</html>
